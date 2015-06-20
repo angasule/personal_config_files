@@ -1,0 +1,11 @@
+Host *
+	ControlMaster auto
+# Remember to create this directory
+	ControlPath ~/.ssh/cm_socket/%r@%h:%p
+Host X
+	HostName       x.com
+	User           bob
+	IdentityFile   ~/.ssh/bob_at_x_id_dsa
+	ForwardAgent   no
+	ForwardX11     no
+	Port           22

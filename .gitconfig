@@ -1,0 +1,15 @@
+[user]
+	name = Matias D'Ambrosio
+	email = angasule@gmail.com
+[core]
+	editor = vim -c ':normal gg'
+[color]
+	ui = auto
+[alias]
+	olog = log --oneline
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 700x550+0+0
+	main-window-view = HistoryView
+[push]
+	default = simple
