@@ -13,3 +13,5 @@
 	main-window-view = HistoryView
 [push]
 	default = simple
+[credential]
+	helper = cache
